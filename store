@@ -1,0 +1,18 @@
+CREATE TABLE store (sku numeric, item text, price numeric, unit text, aisle numeric); 
+insert into store values (82146, "roofing hammer", 20.22, "EA", 65);
+insert into store values (82569, "6 foot level", 78.89, "EA", 62);
+insert into store values (85479, "2 inch paint brush", 8.35, "EA", 9);
+insert into store values (89961,"rebar # 4", 7.79,  "EA", 14);
+insert into store values (65987, "tile cutter", 125.99, "EA", 3);
+insert into store values (78965, "zip tape", 22.68, "EA", 22);
+insert into store values (73625, "BR30 bulb", 34.11,"12 pk", 16);
+insert into store values (85412, "1gal paint", 16.35, "EA", 5);
+insert into store values (97985, "1 gal paint thinner", 12.58, "EA", 2);
+insert into store values (46523, "roofing felt", 72.21, "EA", 22); 
+insert into store values (45692, "12x12 tile", 1.25, "SF", 3);
+insert into store values (32658, "drywall tape", 3.08, "EA", 24);
+insert into store values (45987, "carpet 118", 25.23, "SY", 6);  
+insert into store values (62199, "laser level", 65.55, "EA", 62);
+insert into store values (54876, "headlamp", 13.59, "EA", 13);
+SELECT * FROM store ORDER BY price;
+SELECT * FROM store WHERE price > 70;
